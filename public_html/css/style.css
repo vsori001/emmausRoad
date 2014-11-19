@@ -1,0 +1,65 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+	/*width: 100%;
+	height: 100%;
+	background: url(../img/bg1.jpg) no-repeat center center fixed;
+	background-size: cover;*/
+}
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1000px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+	
+	z-index: -1;
+}
+
+
+#construction{ position: relative; margin: 160px auto 0; width: 700px; text-align: center; padding:40px 0; }
+.opaque{
+	position: absolute; 
+	padding:40px 0;
+	width: 100%;
+	height: 200px;
+	background-color: #FFFFFF;/* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=50);
+
+  /* Netscape */
+  -moz-opacity: 0.5;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0.5;
+
+  /* Good browsers */
+  opacity: 0.5;
+	z-index:0;
+}
+.content{
+	position: absolute;
+	width: 700px;
+	padding: 40px 0;
+	z-index: 5;
+}
+h1{ font-family:'Montez', Georgia; font-size: 70px; line-height: 72px; margin: 0; color:#000000; }
+h3{ font-family:'Raleway', Georgia; font-size: 20px; line-height:45px; color:#000000; }
+p{ font-family:'Raleway', sans-serif; color:#000000; }
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -500px;   /* 50% */
+  }
+}

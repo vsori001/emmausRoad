@@ -1,0 +1,57 @@
+body
+{
+	margin: 0 auto;
+	width: 700px;
+	height: 900px;
+	font-family: Arial Narrow;
+}
+
+#home-header
+{
+	margin: 10px 0 40px 87px; 
+}
+
+#home-emails
+{
+	font-weight: bold;
+	font-size: 14pt;
+	text-align: right;
+}
+
+.home-right-content
+{
+	margin-top: 200px;
+	float: right;
+	text-align: center;
+}
+
+.home-left-content
+{
+	width: 270px;
+	float: left;
+	text-align: center;
+}
+
+.home-list
+{
+	list-style: none;
+	font-size: 12pt;
+}
+
+.home-list li:first-child
+{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#home-img
+{
+	padding: 40px 0 0 20px;
+}
+
+#home-color
+{
+	font-weight: bold;	
+	color: #333333;
+	font-style: italic;
+}
